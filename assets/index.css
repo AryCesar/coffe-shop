@@ -1,0 +1,73 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Silkscreen:wght@400;700&display=swap');
+/* NOTA media queries não foram adicionados pq não era um requisito da atividade a responsividade */
+/* Estilo dos Cards e Classes pra trocar com o JS */
+.card-body{
+    height: 13.5em;
+}
+/* Classe usada para centralizar o botão */
+.centered{
+    display:flex;
+    justify-content:center;
+    align-items:flex-end;
+}
+/* Classes usadas para alternar entre mostrar e não mostrar botão */
+.comprar{
+    display:none;
+
+}
+.comprar2{
+    display: block;
+    width: 200px;
+    height: 48px;
+    background-color: #2A3342;
+    color: #ffffff;
+    border-radius: 10px;
+}
+/* Estilos do Modal */
+.janela-modal{
+    display: none;
+    align-items: flex-start;
+    justify-content: center;
+    font-family: 'Montserrat', sans-serif;
+    position: fixed;
+    z-index: 2;
+    width: 50vw;
+    height: 80vh;
+    min-width: 450px;
+    min-height: 200px;
+    top: 100px;
+    left:400px;
+    text-align: center;
+    /* efeito bacana pra um modal  faz o fundo ficar meio distorcido e mais transparente*/
+    background-color: #ffffff97;
+    backdrop-filter: blur(10px);
+    border-radius: 20px
+}
+/* botão de fechar modal */
+#close{
+    font-size: 2em;
+    background: none;
+    border: none;
+    margin-left: 20em;
+    margin-top: 1em;
+    margin-bottom: 2em;
+}
+/* textos internos */
+#atendimento-text{
+    margin-bottom: 2em;
+}
+.text-modal{
+    margin-bottom: 1em;
+}
+/* estilização extra pra posicionar o botão  */
+#entrar-em-contato{
+    font-weight:700 ;
+    width: 14em;
+    margin-left: 14em;
+    margin-top: 6em;
+}
+/* classe adicionada por JS  pra mostrar o modal*/
+.janela-modal.abrir {
+    display: flex;
+}
+/* NOTA media queries não foram adicionados pq não eram um requisito da atividade a responsividade */
